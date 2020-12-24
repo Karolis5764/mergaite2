@@ -1,3 +1,10 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Langar', cursive;
+}
+
+
+
 main {
     display: inline-block;
     width: 700px;
@@ -6,7 +13,6 @@ main {
     header {
         display: inline-block;
         width: 100%;
-        
     }
          header > img{
             display: inline-block;
@@ -16,10 +22,23 @@ main {
          nav{
             display: inline-block;
             float: right;
+            margin-top: 10px;
          }
              a {
                 display: inline-block;
+                float: left;
+                font-size: 16px; 
+                padding: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-decoration: none;
              }
+             nav > a:last-of-type {
+                 text-transform: uppercase;
+                 border: 5px solid #777;
+                 margin-top: -6px;
+             }
+
     section {
         display: inline-block;
         width: 100%;
@@ -34,10 +53,16 @@ main {
              h1{
                 display: inline-block;
                 width: 100%;
+                margin: 0px;
+                font-size: 70px;
+               
              }
              p{
                 display: inline-block;
                 width: 100%;
+                margin: 0px;
+                font-size: 20px;
+                
              }
          section > img{
             display: inline-block;
