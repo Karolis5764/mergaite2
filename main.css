@@ -32,11 +32,13 @@ main {
                 padding-left: 20px;
                 padding-right: 20px;
                 text-decoration: none;
+                color: #999;
              }
              nav > a:last-of-type {
                  text-transform: uppercase;
-                 border: 5px solid #777;
+                 border: 5px solid #999;
                  margin-top: -6px;
+                 border-radius: 20px;
              }
 
     section {
